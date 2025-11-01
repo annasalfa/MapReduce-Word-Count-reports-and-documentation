@@ -19,15 +19,15 @@ The purpose of this implementation is to analyze distributed data processing by 
 4. Compile the Java code using Hadoop’s classpath:
    ```bash
    javac -classpath $HADOOP_CLASSPATH -d bin/ WordCount.java
-   ```bash
+   ```
 5. Package it as a JAR file and execute it with:
-    ```bash
-hadoop jar WordCount.jar WordCount input output
-    ```bash
+   ```bash
+    hadoop jar WordCount.jar WordCount input output
+   ```
 6. Output results are stored in:
-    ```bash
-output/part-r-00000
-    ```bash
+   ```bash
+    output/part-r-00000
+   ```
 
 ### Result
 The program successfully counts and aggregates word frequencies from an input text file (e.g., a novel).
