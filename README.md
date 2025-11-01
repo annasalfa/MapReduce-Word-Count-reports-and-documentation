@@ -22,27 +22,32 @@ The purpose of this implementation is to analyze distributed data processing by 
    ```
 5. Package it as a JAR file and execute it with:
    ```bash
-    hadoop jar WordCount.jar WordCount input output
+   hadoop jar WordCount.jar WordCount input output
    ```
 6. Output results are stored in:
    ```bash
-    output/part-r-00000
+   output/part-r-00000
    ```
 
 ### Result
 The program successfully counts and aggregates word frequencies from an input text file (e.g., a novel).
+
 This demonstrates the parallel processing power of the MapReduce framework.
 
 ### Author
 
 **Annas Al Farisi**
+
 Cloud Developer, MLOps & Automation Enthusiast
 
 📧 Email: annasalfarisi@gmail.com
+
 🔗 GitHub: https://github.com/annasalfa
+
 💼 LinkedIn: https://linkedin.com/in/annasalfa
 
 ### License
 
 MIT License © 2025 Annas Al Farisi
+
 Free for personal, academic, and educational use.
