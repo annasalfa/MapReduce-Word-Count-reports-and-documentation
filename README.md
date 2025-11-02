@@ -29,6 +29,18 @@ The purpose of this implementation is to analyze distributed data processing by 
    output/part-r-00000
    ```
 
+### Learning Outcomes
+
+- Understood the fundamental concept of distributed data processing using the MapReduce model.
+
+- Successfully configured and deployed Apache Hadoop on a DigitalOcean Ubuntu droplet.
+
+- Implemented a Java-based MapReduce program for word frequency counting.
+
+- Evaluated the performance of parallel execution in handling large text datasets.
+
+- Improved technical writing and bilingual documentation skills (English and Indonesian).
+
 ### Result
 The program successfully counts and aggregates word frequencies from an input text file (e.g., a novel).
 
